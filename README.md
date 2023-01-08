@@ -16,7 +16,7 @@ then import the files and use `addPersianTo` method:
 import katex from 'katex'
 //uncomment for browser usage :
 // import 'katex/dist/katex.css' 
-import addPersianTo from 'katex-persian-renderer/src/index'
+import addPersianTo from 'katex-persian-renderer/src/index.mjs'
 //uncomment for browser usage :
 // import 'katex-persian-renderer/katex-persian-fonts/index.css'
 import allMetrics from 'katex-persian-renderer/katex-persian-fonts/fontMetrics.json'
