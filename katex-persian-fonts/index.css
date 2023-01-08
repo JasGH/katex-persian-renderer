@@ -1,0 +1,132 @@
+.katex {
+    display: inline-block;
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+
+@font-face {
+    font-family: 'iranyekan-Black';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Black.eot');
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../katex-persian-fonts/iranyekan/fonts/woff/iranyekan-Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../katex-persian-fonts/iranyekan/fonts/woff2/iranyekan-Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../katex-persian-fonts/iranyekan/fonts/ttf/iranyekan-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iranyekan-Bold';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Bold.eot');
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../katex-persian-fonts/iranyekan/fonts/woff/iranyekan-Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../katex-persian-fonts/iranyekan/fonts/woff2/iranyekan-Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../katex-persian-fonts/iranyekan/fonts/ttf/iranyekan-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iranyekan-Light';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Light.eot');
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../katex-persian-fonts/iranyekan/fonts/woff/iranyekan-Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../katex-persian-fonts/iranyekan/fonts/woff2/iranyekan-Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../katex-persian-fonts/iranyekan/fonts/ttf/iranyekan-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iranyekan-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Regular.eot');
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../katex-persian-fonts/iranyekan/fonts/woff/iranyekan-Regular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../katex-persian-fonts/iranyekan/fonts/woff2/iranyekan-Regular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../katex-persian-fonts/iranyekan/fonts/ttf/iranyekan-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iranyekan-Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Medium.eot');
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../katex-persian-fonts/iranyekan/fonts/woff/iranyekan-Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../katex-persian-fonts/iranyekan/fonts/woff2/iranyekan-Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../katex-persian-fonts/iranyekan/fonts/ttf/iranyekan-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iranyekan-ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-ExtraBold.eot');
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-ExtraBold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../katex-persian-fonts/iranyekan/fonts/woff/iranyekan-ExtraBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../katex-persian-fonts/iranyekan/fonts/woff2/iranyekan-ExtraBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../katex-persian-fonts/iranyekan/fonts/ttf/iranyekan-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iranyekan-Black';
+    font-style: normal;
+    font-weight: 850;
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Black.eot');
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../katex-persian-fonts/iranyekan/fonts/woff/iranyekan-Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../katex-persian-fonts/iranyekan/fonts/woff2/iranyekan-Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../katex-persian-fonts/iranyekan/fonts/ttf/iranyekan-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'iranyekan-ExtraBlack';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-ExtraBlack.eot');
+    src: url('../katex-persian-fonts/iranyekan/fonts/eot/iranyekan-ExtraBlack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../katex-persian-fonts/iranyekan/fonts/woff/iranyekan-ExtraBlack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../katex-persian-fonts/iranyekan/fonts/woff2/iranyekan-ExtraBlack.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../katex-persian-fonts/iranyekan/fonts/ttf/iranyekan-ExtraBlack.ttf') format('truetype');
+}
+
+/*// bidi algorithm generates wrong result for*/
+/*// inline persian and english \text combinations*/
+/*// so we make all \text inline-block*/
+.katex .mord.text .iranyekan-Black,
+.katex .mord.text .iranyekan-Bold,
+.katex .mord.text .iranyekan-ExtraBlack,
+.katex .mord.text .iranyekan-ExtraBold,
+.katex .mord.text .iranyekan-Light,
+.katex .mord.text .iranyekan-Medium,
+.katex .mord.text .iranyekan-Regular,
+.katex .mord.text .iranyekan-Thin {
+    display: inline-block;
+}
+
+.iranyekan-Black {
+    font-family: 'iranyekan-Black';
+}
+.iranyekan-Bold {
+    font-family: 'iranyekan-Bold';
+}
+.iranyekan-ExtraBlack {
+    font-family: 'iranyekan-ExtraBlack';
+}
+.iranyekan-ExtraBold {
+    font-family: 'iranyekan-ExtraBold';
+}
+.iranyekan-Light {
+    font-family: 'iranyekan-Light';
+}
+.iranyekan-Medium {
+    font-family: 'iranyekan-Medium';
+}
+.iranyekan-Regular {
+    font-family: 'iranyekan-Regular';
+}
+.iranyekan-Thin {
+    font-family: 'iranyekan-Thin';
+}
