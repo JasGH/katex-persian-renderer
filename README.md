@@ -16,14 +16,14 @@ then import the files and use `addPersianTo` method:
 import katex from 'katex'
 //uncomment for browser usage :
 // import 'katex/dist/katex.css' 
-import persianKatexPlugin from 'katex-persian-renderer/src/index'
+import addPersianTo from 'katex-persian-renderer/src/index'
 //uncomment for browser usage :
 // import 'katex-persian-renderer/katex-persian-fonts/index.css'
 import allMetrics from 'katex-persian-renderer/katex-persian-fonts/fontMetrics.json'
 // use assert {type: 'json'} for Nodejs usage:
 // import allMetrics from 'katex-persian-renderer/katex-persian-fonts/fontMetrics.json' assert {type: 'json'};
 
-persianKatexPlugin(katex, {
+addPersianTo(katex, {
     fontName: 'iranyekan',
     fontMetrics: allMetrics
 })
