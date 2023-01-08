@@ -1,5 +1,4 @@
-import '../katex-persian-fonts/index.css';
-import fontMetrics from "../katex-persian-fonts/fontMetrics.json";
+import fontMetrics from "../katex-persian-fonts/fontMetrics.json" assert {type: 'json'};
 const fontName = "Vazir";
 
 export default function PersianPlugin(katex, options) {

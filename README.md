@@ -10,14 +10,18 @@ for using your default font you need:
 
 2. a .css file for font-faces and katex styling ( SAMPLE IN katex-persian-renderer/src/index.css )
 
-then import the files and use `addPersianTo` method
+then import the files and use `addPersianTo` method: 
 
 ```javascript
 import katex from 'katex'
-import 'katex/dist/katex.css'
+//uncomment for browser usage :
+// import 'katex/dist/katex.css' 
 import persianKatexPlugin from 'katex-persian-renderer/src/index'
-import 'katex-persian-renderer/katex-persian-fonts/index.css'
+//uncomment for browser usage :
+// import 'katex-persian-renderer/katex-persian-fonts/index.css'
 import allMetrics from 'katex-persian-renderer/katex-persian-fonts/fontMetrics.json'
+// use assert {type: 'json'} for Nodejs usage:
+// import allMetrics from 'katex-persian-renderer/katex-persian-fonts/fontMetrics.json' assert {type: 'json'};
 
 persianKatexPlugin(katex, {
     fontName: 'iranyekan',
